@@ -22,15 +22,15 @@ public class Sessao {
 	@ManyToOne
 	private Filme filme;
 	
-	/**
-	*	@deprecated	hibernate only
-	*/
 	public Sessao(LocalTime horario, Filme filme, Sala sala) {
 		this.horario = horario;
 		this.filme = filme;
 		this.sala = sala;
 	}
 	
+	/**
+	*	@deprecated	hibernate only
+	*/
 	public Sessao() {
 	}
 
