@@ -65,16 +65,10 @@ public class SalaForm {
         return sala;
     }
 
-	/**
-	 * @return the preco
-	 */
 	public BigDecimal getPreco() {
-		return preco.setScale(2, RoundingMode.HALF_UP);
+		return preco;
 	}
 
-	/**
-	 * @param preco the preco to set
-	 */
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
 	}
